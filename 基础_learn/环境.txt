@@ -4,7 +4,7 @@ https://github.com/moovweb/gvm
 语言下载地址
 https://golang.google.cn/dl/
 
--------------------- gvm
+-------------------- gvm 管理golang版本
 目录结构
 archive             # go 源码
 bin                 # gvm 可执行文件
@@ -34,7 +34,7 @@ gvm use go1.12 --default切换版本(永久)
     再执行安装 gvm install go1.8.7 -B 
 
 
--------------------- go get
+-------------------- go get 管理包
 1. 速度慢
 # 启用 Go Modules 功能
 export GO111MODULE=on
@@ -43,50 +43,60 @@ export GOPROXY=https://mirrors.aliyun.com/goproxy/
 
 2. 下载的包再 GOPATH 路径下
 
+3.
 
-
--------------------- gopm
-使用gopm代替 go get
-gopm 下载存放缓存目录 $USER/.gopm/repos
-安装 gopm
-go get -u github.com/gpmgo/gopm
-
-
-命令:
-# 查看当前工程依赖
-gopm list
-# 显示依赖详细信息
-gopm list -v
-# 列出文件依赖
-gopm list -t [file]
-# 拉取依赖到缓存目录
-gopm get -r xxx
-# 仅下载当前指定的包
-gopm get -d xxx
-# 拉取依赖到$GOPATH
-gopm get -g xxx
-# 检查更新所有包
-gopm get -u xxx
-# 拉取到当前所在目录
-gopm get -l xxx
-# 运行当前目录程序
-gopm run
-# 生成当前工程的 gopmfile 文件用于包管理
-gopm gen -v
-# 根据当前项目 gopmfile 链接依赖并执行 go install
-gopm install -v
-# 更新当前依赖
-gopm update -v
-# 清理临时文件
-gopm clean
-# 编译到当前目录
-gopm bin
 
 -------------------- go 命令
 go env          查看环境变量
+go build xxx.go       不包含文件名时, go 工具会默认使用当前目录来编译
+go clean xxx.go         清理编译生成的文件
+go build aaa/...        ... 是通配符, 编译aaa目录下所有包
+go fmt                  格式化代码
+
+
+--------------------
+GOROOT: GoLang安装目录
+GOPATH: Go 命令环境依赖，其中主要目录
+    bin 可执行相关
+    pkg 编译包相关
+    src 源码包相关
+GO111MODULE: 默认情况下，GO111MODULE=auto 自动模式
+    auto 自动模式下，如果当前目录里有go.mod文件，就使用go modules，否则使用旧的GOPATH和vendor机制
+    on 开启模式，1.12后，都会使用go.mod 里 require的包
+    off 关闭模式
+
+
+初始化模块.
+初始化名为hello的模块，并且生成go.mod和go.sum记录当前依赖包名及版本信息，由程序自动维护
+手动改变 go.mod后需要手动清空go.sum再重新生成：
+
+go mod init hello
+
+import (
+"hello/utils"
+"github.com/astaxie/beego"
+)
+
+
+-------------------- go mod 命令
+go mod init [module]：初始化.mod 包管理文件到当前工程。
+go mod vendor：vendor版本的解决方案，将依赖复制到vendor下面。
+go mod tidy：移除未用的模块，以及添加缺失的模块。
+go mod verify：验证所有模块是否正确。
+
+go mod init github.com/gin-gonic/gin
 
 
 
+-------------------- 包管理
+1. 创建 go.mod 文件
+go mod init gin
+
+2. 包依赖更新
+go build, go test, go list时，go会自动得更新go.mod文件，将依赖关系写入其中。
+
+3. 手动处理依赖关系, 并且将包下载放入cache
+go mod tidy
 
 
 

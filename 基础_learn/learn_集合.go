@@ -29,4 +29,8 @@ func main() {
 	//根据key删除元素
 	delete(a, "name")
 	fmt.Println(a)
+
+	var d = make(map[string]string)
+	d["aa"] = "aa"
+	fmt.Println(d)
 }
