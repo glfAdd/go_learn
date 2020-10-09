@@ -4,6 +4,11 @@
 	type 语句设定了结构体的名称
 	没有赋值时显示默认值
 
+
+
+
+
+
 */
 package main
 
@@ -14,25 +19,48 @@ type Person struct {
 	age       int
 }
 
+//变量类型使用结构体
+type Tom struct {
+	address string
+	number  int
+	p       Person
+}
+
 func main() {
+	fmt.Println("-------------------- 初始化")
 	//方式1
 	var a Person
 	a.name = "小明"
 	fmt.Println(a.name, a.age)
-
 	//方式2
-	b := Person{"Tom", "010-32898872", 11}
-	fmt.Println(b)
-
+	b := Person{
+		"Tom",
+		"010-32898872",
+		11,
+	}
 	//方式3
-	c := Person{age: 44}
-	fmt.Println(c)
+	c := Person{
+		age:  44,
+		name: "Tome",
+	}
+	fmt.Println(b, c)
 
-	//结构体作为参数
+	fmt.Println("-------------------- 变量类型使用结构体")
+	e := Tom{
+		address: "中国",
+		number:  3001,
+		p: Person{
+			name: "Jack",
+			age:  25,
+		},
+	}
+	fmt.Println(e)
+
+	fmt.Println("-------------------- 结构体作为参数")
 	test5(a)
 	fmt.Println(a)
 
-	//结构体指针
+	fmt.Println("-------------------- 结构体指针")
 	test6(&a)
 	fmt.Println(a)
 

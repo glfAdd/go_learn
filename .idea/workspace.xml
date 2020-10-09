@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e37fc024-c3b9-4e10-84bd-abb9cf60e76a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/go_learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/基础_learn/learn_映射.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/关键字.txt" beforeDir="false" afterPath="$PROJECT_DIR$/关键字.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础_learn/learn_接口.go" beforeDir="false" afterPath="$PROJECT_DIR$/基础_learn/learn_接口.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础_learn/learn_方法.go" beforeDir="false" afterPath="$PROJECT_DIR$/基础_learn/learn_方法.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础_learn/learn_类型别名.go" beforeDir="false" afterPath="$PROJECT_DIR$/基础_learn/learn_类型别名.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础_learn/learn_结构体.go" beforeDir="false" afterPath="$PROJECT_DIR$/基础_learn/learn_结构体.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础_learn/learn_集合.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/.gvm/gos/go1.15" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gw5PFYqXjt3itsNaC7uXYc74jU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build test.go">
+    <configuration name="go build learn_集合.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/基础_learn/learn_集合.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build learn_接口.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/基础_learn/learn_接口.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build learn_映射.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/基础_learn/learn_映射.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build learn_结构体.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/基础_learn/learn_结构体.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build learn_类型别名.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/基础_learn/learn_类型别名.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build learn_方法.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/基础_learn/learn_方法.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build learn_切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/基础_learn/learn_切片.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build learn_数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/基础_learn/learn_数组.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build test.go" />
+        <item itemvalue="Go Build.go build learn_集合.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3471" y="522" width="605" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599291691968">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3471" y="522" width="605" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1599291691968" />
+    <state x="3608" y="478" width="374" height="359" key="FileChooserDialogImpl" timestamp="1599815277485">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3608" y="478" width="424" height="491" key="FileChooserDialogImpl/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1599815277485" />
+    <state x="1291" y="739" width="374" height="359" key="FileChooserDialogImpl/72.390.1848.1050/1920.0.2560.1440@72.390.1848.1050" timestamp="1599470483836" />
+    <state width="1257" height="495" key="GridCell.Tab.0.bottom" timestamp="1600344880953">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="495" key="GridCell.Tab.0.bottom/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1600344880953" />
+    <state width="1257" height="495" key="GridCell.Tab.0.center" timestamp="1600344880953">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="495" key="GridCell.Tab.0.center/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1600344880953" />
+    <state width="1257" height="495" key="GridCell.Tab.0.left" timestamp="1600344880953">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="495" key="GridCell.Tab.0.left/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1600344880953" />
+    <state width="1257" height="495" key="GridCell.Tab.0.right" timestamp="1600344880953">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="495" key="GridCell.Tab.0.right/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1600344880953" />
+    <state width="1257" height="495" key="GridCell.Tab.1.bottom" timestamp="1600344880953">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="495" key="GridCell.Tab.1.bottom/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1600344880953" />
+    <state width="1257" height="495" key="GridCell.Tab.1.center" timestamp="1600344880953">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="495" key="GridCell.Tab.1.center/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1600344880953" />
+    <state width="1257" height="495" key="GridCell.Tab.1.left" timestamp="1600344880953">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="495" key="GridCell.Tab.1.left/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1600344880953" />
+    <state width="1257" height="495" key="GridCell.Tab.1.right" timestamp="1600344880953">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1257" height="495" key="GridCell.Tab.1.right/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1600344880953" />
+    <state x="3531" y="459" width="618" height="522" key="find.popup" timestamp="1600076532434">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3531" y="459" width="618" height="522" key="find.popup/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1600076532434" />
+    <state x="3503" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1600072274836">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3503" y="329" width="672" height="678" key="search.everywhere.popup/72.390.1848.1050/1920.0.2560.1440@1920.0.2560.1440" timestamp="1600072274836" />
+  </component>
+</project>
