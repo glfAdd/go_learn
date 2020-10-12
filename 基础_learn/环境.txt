@@ -4,7 +4,7 @@ https://github.com/moovweb/gvm
 语言下载地址
 https://golang.google.cn/dl/
 
--------------------- gvm 管理golang版本
+******************************************** gvm 管理golang版本
 目录结构
 archive             # go 源码
 bin                 # gvm 可执行文件
@@ -28,13 +28,11 @@ gvm version             版本信息
 gvm use xxxx            切换版本(临时)
 gvm use go1.12 --default切换版本(永久)
 
-
 4. 安装下载很慢解决办法
     下载 go1.8.7.linux-amd64.tar.gz 放入archive中
     再执行安装 gvm install go1.8.7 -B 
 
-
--------------------- go get 管理包
+******************************************** go get 管理包
 1. 速度慢
 # 启用 Go Modules 功能
 export GO111MODULE=on
@@ -45,8 +43,7 @@ export GOPROXY=https://mirrors.aliyun.com/goproxy/
 
 3.
 
-
--------------------- go 命令
+******************************************** go 命令
 go env          查看环境变量
 go build xxx.go       不包含文件名时, go 工具会默认使用当前目录来编译
 go clean xxx.go         清理编译生成的文件
@@ -54,7 +51,7 @@ go build aaa/...        ... 是通配符, 编译aaa目录下所有包
 go fmt                  格式化代码
 
 
---------------------
+******************************************** 环境变量
 GOROOT: GoLang安装目录
 GOPATH: Go 命令环境依赖，其中主要目录
     bin 可执行相关
@@ -78,7 +75,7 @@ import (
 )
 
 
--------------------- go mod 命令
+******************************************** go mod 命令
 go mod init [module]：初始化.mod 包管理文件到当前工程。
 go mod vendor：vendor版本的解决方案，将依赖复制到vendor下面。
 go mod tidy：移除未用的模块，以及添加缺失的模块。
@@ -88,7 +85,7 @@ go mod init github.com/gin-gonic/gin
 
 
 
--------------------- 包管理
+******************************************** 包管理
 1. 创建 go.mod 文件
 go mod init gin
 
