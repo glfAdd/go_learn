@@ -1,3 +1,9 @@
+/*
+浮点数的类型有float32和float64两种（没有float类型），默认是float64
+
+
+
+*/
 package main
 
 import "fmt"

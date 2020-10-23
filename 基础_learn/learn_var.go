@@ -6,28 +6,20 @@
 7. 如果将多个语句写在同一行需要用 ; 分隔(不推荐这么写)
 8. 标识符第一个必须是子母或下划线
 
-声明变量默认值: 0 "" false nil
+声明变量没有初始化默认值: 0 "" false nil
 */
 
 package main
 
-// 实现了格式化IO(输入/输出)的函数
 import "fmt"
 
-/*
-1. 调用和声明的位置没有要求
-*/
 func test() (l, m, n int) {
 	return 11, 22, 33
 }
 
 func main() {
-	//拼接字符串
-	fmt.Println("hello" + "word")
-
 	//只声明没有初始化默认为 0
 	var a int
-	fmt.Println("a =", a)
 	a = 1
 	fmt.Println("a =", a)
 
@@ -67,5 +59,4 @@ func main() {
 	// 多个自动推导
 	m1, n1 := 11, "22"
 	fmt.Printf("m1 = %d, n1 = %s\n", m1, n1)
-
 }
